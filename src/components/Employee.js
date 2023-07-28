@@ -54,7 +54,7 @@ return (
       <input type="text" placeholder="Enter phone" value={phone} onChange={((e)=>setphone(e.target.value))} required></input>
       <input type="text" placeholder="Enter email" value={email} onChange={((e)=>setemail(e.target.value))} required></input>
       <input type="text" placeholder="Enter department" value={department} onChange={((e)=>setdepartment(e.target.value))} required></input>
-      <input type="text" placeholder="Enter date" value={date} onChange={((e)=>setdate(e.target.value))} required></input>
+      <input type="date" placeholder="Enter date" value={date} onChange={((e)=>setdate(e.target.value))} required></input>
       <input type="text" placeholder="Enter salary" value={salary} onChange={((e)=>setsalary(e.target.value))} required></input>
       <input type="file"  ref={image} ></input>
       </div>

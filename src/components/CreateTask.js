@@ -50,9 +50,9 @@ return (
       <input type="text" placeholder="Enter name" value={name} onChange={((e)=>setname(e.target.value))} required></input>
       <input type="text" placeholder="Enter task" value={task} onChange={((e)=>settask(e.target.value))} required></input>
       <input type="text" placeholder="Enter task details" value={task_details} onChange={((e)=>settask_details(e.target.value))} required></input>
-      <input type="text" placeholder="Enter assigned date" value={assigned_date} onChange={((e)=>setassigned_date(e.target.value))} required></input>
-      <input type="text" placeholder="Enter start date" value={start_date} onChange={((e)=>setstart_date(e.target.value))} required></input>
-      <input type="text" placeholder="Enter end date" value={end_date} onChange={((e)=>setend_date(e.target.value))} required></input>
+      <input type="date" placeholder="Enter assigned date" value={assigned_date} onChange={((e)=>setassigned_date(e.target.value))} required></input>
+      <input type="date" placeholder="Enter start date" value={start_date} onChange={((e)=>setstart_date(e.target.value))} required></input>
+      <input type="date" placeholder="Enter end date" value={end_date} onChange={((e)=>setend_date(e.target.value))} required></input>
       <input type="text" placeholder="Enter status" value={status} onChange={((e)=>setstatus(e.target.value))} required></input>
       </div>
       <button className='btn'>
